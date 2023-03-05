@@ -38,6 +38,18 @@ body {
     color: var(--lightcolor);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+
+  .content {
+    padding: 40px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    background: var(--darkcolor);
+    color: var(--lightcolor);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  
   
   nav {
     display: flex;
@@ -78,15 +90,43 @@ body {
     width: 100px;
   }
 
-  .wordcard article {
-    
+  .workcard div {
+    flex-wrap: wrap;
   }
 
+  .workcard article {
+    max-width: 500px;
+    max-height: 150px;
+    border: 3px solid var(--lightblue);
+    height: 250px;
+    overflow: hidden;
+    margin: 5px;
+  }
+
+  #top-image {
+    max-width: 1500px;
+  }
+
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    background-color: var(--lightblue);
+    color: var(--darkcolor);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    top: 20px;
+    padding: 20px;
+  }
 
   .contactmecard a{
     justify-content: space-between;
     color: var(--lightblue);
-    white-space: nowrap;
+    background-color: var(--darkcolor);
   }
   
   footer {
