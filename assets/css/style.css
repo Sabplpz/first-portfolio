@@ -1,0 +1,126 @@
+:root{
+    --lightcolor: #E384FF;
+    --darkcolor: #191825;
+    --lightblue: #865DFF;
+  }
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-color: var(--lightcolor);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--lightblue);
+  }
+
+  p {
+    color: var(--lightblue);
+  }
+  
+
+  header {
+    padding: 40px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    background: var(--darkcolor);
+    color: var(--lightcolor);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    background-color: var(--lightblue);
+    flex-direction: row;
+    justify-content: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+  nav a {
+    color: var(--darkcolor);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    background-color: var(--lightcolor);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  section h2{
+    margin-right: 10px;
+    text-align: center;
+    color: var(--darkcolor);
+  }
+
+  .aboutmecard p {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .aboutmecard img {
+    width: 100px;
+  }
+
+  .wordcard article {
+    display: flex;
+
+  }
+
+
+  .contactmecard a{
+    justify-content: space-between;
+    color: var(--lightblue);
+    white-space: nowrap;
+  }
+  
+  footer {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: var(--darkcolor);
+    color: var(--lightcolor);
+    margin-top: auto;
+  }
+  
+  
+  
+  .parts {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .parts section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+  
+
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
