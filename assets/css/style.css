@@ -15,7 +15,6 @@ body {
   
   h1 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
   }
   
   h2 {
@@ -32,30 +31,30 @@ body {
   header {
     padding: 40px;
     display: flex;
-    text-align: left;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: var(--darkcolor);
-    color: var(--lightcolor);
+    color: var(--darkcolor);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  .content {
-    padding: 40px;
+  .background-for-header {
     display: flex;
-    text-align: left;
-    justify-content: space-between;
+    padding: 1%;
+    background-color: var(--lightblue);
+  }
+  .content {
+    padding: 1%;
+    display: flex;
     background: var(--darkcolor);
     color: var(--lightcolor);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-
-  
   
   nav {
     display: flex;
     background-color: var(--lightblue);
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-evenly;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
   
@@ -68,11 +67,6 @@ body {
   
   nav a:hover {
     background-color: var(--lightcolor);
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
   }
  
   section h2{
@@ -87,29 +81,37 @@ body {
   }
 
   .aboutmecard img {
-    width: 100px;
+    width: 10%;
   }
 
   .workcard div {
     flex-wrap: wrap;
   }
 
-  .workcard article {
-    max-width: 500px;
-    max-height: 150px;
+  .workcard figure {
     border: 3px solid var(--lightblue);
     height: 250px;
     overflow: hidden;
     margin: 5px;
   }
 
-  #top-image {
-    max-width: 1500px;
+  .placeholders {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
   }
-
 
   figure {
     position: relative;
+  }
+
+  figure img {
+    opacity: .25;
+    transition: .5s ease;
+  }
+
+  figure img:hover{
+    opacity: 1;
   }
 
   figcaption {
@@ -123,8 +125,17 @@ body {
     padding: 20px;
   }
 
+  .contactmecard {
+    display: flex;
+  }
+
+
+  .contactmecard .content {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
   .contactmecard a{
-    justify-content: space-between;
     color: var(--lightblue);
     background-color: var(--darkcolor);
   }
@@ -141,7 +152,6 @@ body {
   
   
   .parts {
-    flex: 1;
     padding: 50px;
     display: flex;
     flex-direction: column;
