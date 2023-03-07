@@ -9,9 +9,7 @@ I learnt mostly CSS with this, it was a big headache but I got my way around it,
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Please see below for an example of a portfolio, please expect to see my own tweaks. :)
 
 ![alt text](assets/images/EXPECT.gif)
 
@@ -23,3 +21,7 @@ But also, credits to me cause I almost died making this! (Joking)
 ## License
 
 MIT License
+
+## URL
+
+https://sabplpz.github.io/Challenge-02/
