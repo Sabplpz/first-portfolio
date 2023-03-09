@@ -9,8 +9,7 @@ body {
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     background-color: var(--darkcolor);
   }
   
@@ -29,47 +28,41 @@ body {
   
 
   header {
-    padding: 40px;
-    display: flex;
-    justify-content: left;
+    padding: 1%;
     background: var(--darkcolor);
-    color: var(--darkcolor);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   header figure {
     position: relative;
     background-size: cover;
+  }
 
+  header figure img {
+    width: 100%;
   }
 
   header figcaption {
     position: absolute;
     background-color: var(--darkcolor);
     color: var(--lightcolor);
-    font-size: 50px;
+    font-size: 350%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: left;
     top: 30%;
-    padding: 20px;
+    padding: 1.5%;
   }
 
-  .content {
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    background: var(--grey);
-    color: var(--lightcolor);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
   
+
+
   nav {
     display: flex;
     background-color: var(--lightblue);
     flex-direction: row;
     justify-content: space-evenly;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    }
   
   nav a {
     color: var(--darkcolor);
@@ -88,6 +81,19 @@ body {
     color: var(--lightcolor);
   }
 
+  .content {
+    position: relative;
+    left: 2%;
+    padding: 1%;
+    justify-content: space-between;
+    display: flex;
+    background: var(--grey);
+    color: var(--lightcolor);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  
+
   .aboutmecard p {
     margin-top: 50px;
     text-align: center;
@@ -101,17 +107,28 @@ body {
     flex-wrap: wrap;
   }
 
+  .workcard .content {
+    padding: 1%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #topimage {
+    width: 100%;
+    height: 55vh;
+  } 
+
   .workcard figure {
     border: 3px solid var(--lightblue);
-    height: 250px;
+    height: 20%;
     overflow: hidden;
-    margin: 5px;
+    margin: 0.5%;
   }
 
   .placeholders {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 40%;
+    width: 48%;
   }
 
   .workcard figure {
@@ -163,8 +180,15 @@ body {
     margin-top: auto;
   }
   
-  
-  
+  footer a:hover {
+    background-color: var(--lightcolor);
+  }
+ 
+
+  #work {
+    margin-right: 0.6%;
+  }
+
   .parts {
     padding: 50px;
     display: flex;
@@ -175,9 +199,9 @@ body {
 
   .parts section {
     display: flex;
+    /* flex-direction: column; */
     margin: 5px;
   }
-  
 
   
   @media screen and (max-width: 768px) {
