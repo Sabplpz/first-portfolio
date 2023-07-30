@@ -5,7 +5,7 @@
 As our second week challenge, we were instructed to create a professional portfolio. Now this got my noggin going!
 I definitely wanted this to impress, as it's the webpage that potantial employers might see. It helps me show my work and 
 how to contact me in an organized way, so it'll be better to provide than a regular resume.
-I learnt mostly CSS with this, it was a big headache but I got my way around it, I think ;).
+I learnt mostly CSS with this, it was a big headache but I got my way around it ;).
 
 ## Usage
 
