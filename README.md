@@ -1,4 +1,4 @@
-# Challenge 02 - Portfolio
+# Portfolio
 
 ## Description
 
@@ -24,4 +24,4 @@ MIT License
 
 ## URL
 
-https://sabplpz.github.io/Challenge-02/
+https://sabplpz.github.io/first-portfolio/
